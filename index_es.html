@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Portafolio</title>
+    <link rel="icon" type="image/png" href="assets/img/graphics/legacy/Cod3Genius_sin_fondo.png" />
+
+    <!--Core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link id="theme-sheet" rel="stylesheet" href="assets/css/core.css" />
+    <link rel="stylesheet" href="assets/css/my.css" />
+
+</head>
+
+<body class="is-theme-core">
+    <!-- Loader -->
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+
+
+    <div class="hero gradient-hero is-fullheight">
+        <!-- Navbar partial -->
+        <nav class="navbar navbar-wrapper is-cloned">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+              <img class="switcher-logo" src="assets/img/logos/guna-logo/guna-logo.svg" alt="" />
+            </a>
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="is-cloned">
+                        <a class="responsive-btn" href="javascript:void(0);">
+                <span class="menu-toggle">
+                  <span class="icon-box-toggle">
+                    <span class="rotate">
+                      <i class="icon-line-top"></i>
+                      <i class="icon-line-center"></i>
+                      <i class="icon-line-bottom"></i>
+                    </span>
+                  </span>
+                </span>
+              </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+                <!-- Navbar menu -->
+                <div id="is-cloned" class="navbar-menu">
+                    <div id="is-static" class="navbar-menu">
+
+                        <!-- Navbar end -->
+                        <div class="navbar-end">
+
+                            <!-- Dropdown -->
+                            <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
+                                <div class="navbar-link">all products</div>
+                                <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;" style="border-top: 2px solid #8c8cf9;">
+                                    <div class="mega-inner">
+                                        <div class="container">
+                                            <div class="columns">
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">portafolio de servicios web</h2>
+                                                    <a class="navbar-item is-flex" href="servicio_web.html">
+                  <i class="im im-icon-Structure"></i>
+                  <div class="navbar-content">
+                    <p class="color-primary">Front-end - Back-end - Desktop</p>
+                  </div>
+                </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">catalogo de servicios fisicos</h2>
+                                                    <a class="navbar-item is-flex" href="contacto.html">
+                  <i class="im im-icon-Bar-Chart"></i>
+                  <div class="navbar-content">
+                    <p class="color-primary">Diseño - desarrollo - actualizacion</p>
+                  </div>
+                </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Downlaod button -->
+                            <div class="navbar-item is-button is-centered-tablet">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-wrapper navbar-light is-transparent is-static">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://gunaui.com">
+        <img src="assets/img/logos/guna-logo/guna-white.svg" alt="" />
+      </a>
+
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="is-static">
+                        <a class="responsive-btn" href="javascript:void(0);">
+          <span class="menu-toggle">
+            <span class="icon-box-toggle">
+              <span class="rotate">
+                <i class="icon-line-top"></i>
+                <i class="icon-line-center"></i>
+                <i class="icon-line-bottom"></i>
+              </span>
+            </span>
+          </span>
+        </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div id="is-static" class="navbar-menu">
+                    <div id="is-static" class="navbar-menu">
+
+                        <!-- Navbar end -->
+                        <div class="navbar-end">
+
+                            <!-- Dropdown -->
+                            <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
+                                <div class="navbar-link">all products</div>
+                                <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;" style="border-top: 2px solid #8c8cf9;">
+                                    <div class="mega-inner">
+                                        <div class="container">
+                                            <div class="columns">
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Servicios web</h2>
+                                                    <a class="navbar-item is-flex" href="servicio_web.html">
+                  <i class="im im-icon-Bag-Coins"></i>
+                  <div class="navbar-content">
+                    <p class="color-primary">Front-end - Back-end - Cloud</p>
+                  </div>
+                </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Servicios mobile</h2>
+                                                    <a class="navbar-item is-flex" href="contacto.html">
+                  <i class="im im-icon-Download"></i>
+                  <div class="navbar-content">
+                    <p class="color-primary">Diseño - desarrollo - actualizacion</p>
+                  </div>
+                </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Navbar item -->
+        </nav>
+        <!-- End Navbar partial -->
+        <div class="square square-1"></div>
+        <div class="square square-2"></div>
+
+        <img class="slant-shape" src="assets/img/graphics/legacy/slant-light.svg" alt="" />
+
+        <!-- Hero content -->
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered hero-caption">
+                    <div class="column is-7 laptop-container">
+                        <img class="laptop levitate" src="assets/img/graphics/legacy/Cod3Genius_sin_fondo.png" alt="" />
+                        <img class="laptop-shadow scaleShadow" src="assets/img/graphics/legacy/shadow.png" alt="" />
+                    </div>
+                    <div class="column is-5 is-hero-title">
+                        <h1 class="title is-3 is-medium">Servicios profesionales</h1>
+                        <h2 class="subtitle is-4">💻Desktop - Web - Mobiles📱</h2>
+                        <div class="buttons">
+
+                            <a href="contacto.html" class="button button-cta is-bold btn-align white-btn is-rounded raised">Redes Sociales</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- start section -->
+        <div id="start-section" class="section">
+            <!--Squares-->
+            <div class="square square-4"></div>
+            <div class="square square-5"></div>
+            <div class="square square-6"></div>
+            <div class="square square-7"></div>
+            <div class="container">
+                <!--Stacks-->
+                <div class="stacks">
+                    <div class="stack">
+                    </div>
+                    <div class="stack">
+                    </div>
+                    <div class="stack">
+                    </div>
+                </div>
+
+                <!--Title-->
+                <div class="section-title has-text-centered">
+                    <h2 class="title is-2">Proyectos realizados</h2>
+                </div>
+
+                <!--Boxed Features -->
+                <div class="boxed-features">
+                    <div class="flex-card light-bordered hover-inset">
+                        <div class="flex-cell is-bordered">
+                            <img alt="Bypass iCloud Activation Lock Screen Tool" src="assets/img/graphics/legacy/Snake team sin fondo .png" style="width: 100%;">
+                            <h2>Snake Team</h2>
+                            <a href="404_found.html">
+              <button type="button" class="btn btn-primary" >Ver codigo</button></a>
+                        </div>
+                        <div class="flex-cell is-bordered">
+                            <!--<i class="im im-icon-Sidebar-Window"></i>-->
+
+                            <img alt="Bypass iCloud Activation Lock Screen Tool" src="assets/img/graphics/legacy/Immagine WhatsApp 2023-04-14 ore 19.18.04.jpg" style="width: 100%;">
+                            <h3>immobiliem rieger S.R.L</h3>
+                            <a href="404_found.html">
+              <button type="button" class="btn btn-primary" >Ver codigo</button></a>
+                        </div>
+                        <div class="flex-cell is-bordered">
+                            <img alt="Bypass iCloud Activation Lock Screen Tool" src="assets/img/graphics/legacy/Cod3Genius_sin_fondo.png" style="width: 100%;">
+                            <h3>cod3genius voice</h3>
+                            <p></p>
+                            <a href="https://github.com/AnonymousElite0/cod3genius_voice.git">
+              <button type="button" class="btn btn-primary" >Ver codigo</button></a>
+                        </div>
+                        <div class="flex-cell is-bordered no-border-edge">
+                            <img alt="Bypass iCloud Activation Lock Screen Tool" src="assets/img/graphics/legacy/Cod3Genius_sin_fondo.png" style="width: 100%;">
+                            <h3>cooming Soon</h3>
+                            <p></p>
+                            <a href="404_found.html">
+              <button type="button" class="btn btn-primary" >Ver codigo</button></a>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- demos -->
+        <section class="section bg-d1">
+            <div class="container">
+                <!--Title-->
+                <div class="section-title has-text-centered py-6">
+                    <h2 class="title is-2">Clientes Satisfechos</h2>
+                    <h4></h4>
+                </div>
+                <!--Demos partial-->
+                <div class="content-wrapper pb-40">
+                    <!--Software-->
+                    <div class="demo-section">
+                        <div class="columns is-multiline">
+                            <div class="column is-4 has-text-centered">
+                                <figure class="demo-wrapper">
+                                    <img data-src="assets/img/graphics/legacy/snake_photo.jpg" alt="" data-lazy-load />
+                                    <div class="circle-overlay is-landing"></div>
+                                    <div class="demo-info has-text-centered">
+                                        <div class="wrapper">
+                                            <div class="demo-title">
+                                                Snake Team
+                                            </div>
+                                            <div class="demo-link">
+                                                <a class="is-dm" href="404_found.html" target="_blank">Click aqui
+                       
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <figure class="demo-wrapper">
+                                    <img data-src="assets/img/graphics/legacy/rieger.jpg" alt="" data-lazy-load />
+                                    <div class="circle-overlay is-landing"></div>
+                                    <div class="demo-info has-text-centered">
+                                        <div class="wrapper">
+                                            <div class="demo-title">
+                                                Immobiliem Rieger S.R.L
+                                            </div>
+                                            <div class="demo-link">
+                                                <a class="is-dm" href="404_found.html" target="_blank">Click aqui
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <figure class="demo-wrapper">
+                                    <img data-src="assets/img/graphics/legacy/Immagine 2023-06-22 001916.png" alt="" data-lazy-load />
+                                    <div class="circle-overlay is-landing"></div>
+                                    <div class="demo-info has-text-centered">
+                                        <div class="wrapper">
+                                            <div class="demo-title">
+                                                Genius Industries
+                                            </div>
+                                            <div class="demo-link">
+                                                <a class="is-dm" href="404_found.html" target="_blank">Click aqui
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <figure class="demo-wrapper">
+                                    <img data-src="https://i.ibb.co/2KHrLBQ/Untitled.jpg" alt="" data-lazy-load />
+                                    <div class="circle-overlay is-landing"></div>
+                                    <div class="demo-info has-text-centered">
+                                        <div class="wrapper">
+                                            <div class="demo-title">
+                                                Soon
+                                            </div>
+                                            <div class="demo-link">
+                                                <a class="is-dm" href="404_found.html" target="_blank">Soon
+                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <figure class="demo-wrapper">
+                                    <img data-src="https://i.ibb.co/2KHrLBQ/Untitled.jpg" alt="" data-lazy-load />
+                                    <div class="circle-overlay is-landing"></div>
+                                    <div class="demo-info has-text-centered">
+                                        <div class="wrapper">
+                                            <div class="demo-title">
+                                                Soon
+                                            </div>
+                                            <div class="demo-link">
+                                                <a class="is-dm" href="404_found.html" target="_blank">Soon
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="column is-4 has-text-centered">
+                                <figure class="demo-wrapper">
+                                    <img data-src="https://i.ibb.co/2KHrLBQ/Untitled.jpg" alt="" data-lazy-load />
+                                    <div class="circle-overlay is-landing"></div>
+                                    <div class="demo-info has-text-centered">
+                                        <div class="wrapper">
+                                            <div class="demo-title">
+                                                Soon
+                                            </div>
+                                            <div class="demo-link">
+                                                <a class="is-dm" href="404_found.html" target="_blank">Soon
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!--Stacks-->
+                <div class="stacks">
+                    <div class="stack">
+                    </div>
+                    <div class="stack">
+                    </div>
+                    <div class="stack">
+                    </div>
+                </div>
+
+                <div class="section-title has-text-centered">
+                    <h2 class="title is-2">METODOS DE PAGO</h2>
+                </div>
+
+                <!--Boxed Features-->
+                <div class="boxed-features">
+                    <div class="flex-card light-bordered hover-inset">
+                        <div class="flex-cell is-bordered">
+                            <img alt="" src="assets/img/graphics/legacy/png-transparent-binance-hd-logo.png" style="width: 100%;">
+                            <h3>Binance</h3>
+                            <p>Internacional</p>
+                            <a href="#">
+                <button type="button" class="btn btn-primary" >Pay</button></a>
+                        </div>
+                        <div class="flex-cell is-bordered">
+
+                            <img alt="Method payment" src="assets/img/graphics/legacy/tether-usdt-logo.png" style="width: 100%;">
+                            <h3>USDT-TRC20</h3>
+                            <p>Internacional</p>
+                            <a href="#">
+                <button type="button" class="btn btn-primary" >Pay</button></a>
+                        </div>
+                        <div class="flex-cell is-bordered">
+                            <img alt="Method payment" src="assets/img/graphics/legacy/banco.jpg" style="width: 100%;">
+                            <h3>Bancolombia</h3>
+                            <p>Colombia</p>
+                            <a href="#">
+                <button type="button" class="btn btn-primary" >Pay</button></a>
+                        </div>
+                        <div class="flex-cell is-bordered no-border-edge">
+                            <img alt="Method payment" src="assets/img/graphics/legacy/uni_senzaFondo.png" style="width: 100%;">
+                            <h3>Unicredit</h3>
+                            <p>Italia</p>
+                            <p></p>
+                            <a href="#">
+                <button type="button" class="btn btn-primary" >Pay</button></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <script src="assets/js/cookie.notice.js"></script>
+
+            <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+            <script src="assets/js/app.js"></script>
+            <script src="assets/js/core.js"></script>
+
+</body>
+
+</html>
